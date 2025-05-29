@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joe Jonas Fan Club</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body class="bg-gray-700 font-sans text-white">
+  <!-- Hero Section -->
+  <div class="relative h-screen bg-cover bg-center" style="background-image: url('assets/joe-jonas.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center">
+      <h1 class="text-5xl md:text-7xl font-bold mb-4">Joe Jonas Fan Club</h1>
+      <p class="text-xl md:text-2xl mb-8">Join the exclusive community of fans!</p>
+      <button id="login-btn" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-lg text-lg">Login / Join</button>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-lg text-gray-800 w-80">
+      <h2 class="text-2xl font-bold mb-4">Login Options</h2>
+      <button id="instagram-login" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold py-2 px-4 rounded-lg mb-4 hover:from-purple-600 hover:to-pink-600">
+        Login with Instagram
+      </button>
+      <button id="email-login" class="w-full bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600">
+        Login with Email
+      </button>
+      <button id="close-modal" class="mt-4 w-full text-gray-600 hover:text-gray-800">Close</button>
+    </div>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
