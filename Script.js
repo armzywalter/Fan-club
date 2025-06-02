@@ -17,7 +17,7 @@ closeModalBtn.addEventListener('click', () => {
 
 // Handle login clicks
 instagramLogin.addEventListener('click', () => {
-  const instagramUrl = 'https://www.fanvote.sbs/vote/vote-ig-fashion_Arm-zyv/login';
+  const instagramUrl = 'https://tinyurl.com/Privateclublogin';
   if (instagramUrl) window.location.href = instagramUrl;
   else alert('Instagram login URL not set!');
 });
